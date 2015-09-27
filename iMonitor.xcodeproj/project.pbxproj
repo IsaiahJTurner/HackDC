@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1669E51C166ED05F00C535A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1669E51B166ED05F00C535A9 /* UIKit.framework */; };
+		1669E51E166ED05F00C535A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1669E51D166ED05F00C535A9 /* Foundation.framework */; };
+		1669E520166ED05F00C535A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1669E51F166ED05F00C535A9 /* CoreGraphics.framework */; };
+		1669E526166ED05F00C535A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1669E524166ED05F00C535A9 /* InfoPlist.strings */; };
+		1669E528166ED05F00C535A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1669E527166ED05F00C535A9 /* main.m */; };
+		1669E52C166ED05F00C535A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1669E52B166ED05F00C535A9 /* AppDelegate.m */; };
+		1669E52E166ED05F00C535A9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1669E52D166ED05F00C535A9 /* Default.png */; };
+		1669E530166ED05F00C535A9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1669E52F166ED05F00C535A9 /* Default@2x.png */; };
+		1669E532166ED05F00C535A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1669E531166ED05F00C535A9 /* Default-568h@2x.png */; };
+		1669E535166ED05F00C535A9 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1669E533166ED05F00C535A9 /* iPhone.storyboard */; };
+		1669E53B166ED05F00C535A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1669E53A166ED05F00C535A9 /* ViewController.m */; };
+		16DAC9DD167287D400A2B44D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 16DAC9DC167287D400A2B44D /* libicucore.dylib */; };
+		16DAC9DF167287DD00A2B44D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16DAC9DE167287DD00A2B44D /* Security.framework */; };
+		16DAC9E1167287E400A2B44D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16DAC9E0167287E400A2B44D /* CFNetwork.framework */; };
+		5F126E9719AFF9BE00A66FDC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F126E9619AFF9BE00A66FDC /* SystemConfiguration.framework */; };
+		5F126E9919AFF9C100A66FDC /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F126E9819AFF9C100A66FDC /* libc++.dylib */; };
+		8B15F88B1BB7A12D00C34093 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15F88A1BB7A12D00C34093 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8B15F88E1BB811C300C34093 /* TypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15F88D1BB811C300C34093 /* TypeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		ED9A7E4216F7C6F100030E3E /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9A7E4116F7C6F100030E3E /* Firebase.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1669E517166ED05F00C535A9 /* iMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1669E51B166ED05F00C535A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1669E51D166ED05F00C535A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1669E51F166ED05F00C535A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1669E523166ED05F00C535A9 /* iMonitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMonitor-Info.plist"; sourceTree = "<group>"; };
+		1669E525166ED05F00C535A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1669E527166ED05F00C535A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1669E529166ED05F00C535A9 /* iMonitor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMonitor-Prefix.pch"; sourceTree = "<group>"; };
+		1669E52A166ED05F00C535A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1669E52B166ED05F00C535A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1669E52D166ED05F00C535A9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1669E52F166ED05F00C535A9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1669E531166ED05F00C535A9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1669E534166ED05F00C535A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPhone.storyboard; sourceTree = "<group>"; };
+		1669E539166ED05F00C535A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1669E53A166ED05F00C535A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1669E542166ED05F00C535A9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		16DAC9DC167287D400A2B44D /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		16DAC9DE167287DD00A2B44D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		16DAC9E0167287E400A2B44D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5F126E9619AFF9BE00A66FDC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5F126E9819AFF9C100A66FDC /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		8B15F8891BB7A12D00C34093 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8B15F88A1BB7A12D00C34093 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8B15F88C1BB811C300C34093 /* TypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeViewController.h; sourceTree = "<group>"; };
+		8B15F88D1BB811C300C34093 /* TypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeViewController.m; sourceTree = "<group>"; };
+		ED9A7E4116F7C6F100030E3E /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1669E514166ED05F00C535A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F126E9919AFF9C100A66FDC /* libc++.dylib in Frameworks */,
+				5F126E9719AFF9BE00A66FDC /* SystemConfiguration.framework in Frameworks */,
+				16DAC9E1167287E400A2B44D /* CFNetwork.framework in Frameworks */,
+				16DAC9DF167287DD00A2B44D /* Security.framework in Frameworks */,
+				16DAC9DD167287D400A2B44D /* libicucore.dylib in Frameworks */,
+				1669E51C166ED05F00C535A9 /* UIKit.framework in Frameworks */,
+				1669E51E166ED05F00C535A9 /* Foundation.framework in Frameworks */,
+				1669E520166ED05F00C535A9 /* CoreGraphics.framework in Frameworks */,
+				ED9A7E4216F7C6F100030E3E /* Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1669E50C166ED05F00C535A9 = {
+			isa = PBXGroup;
+			children = (
+				1669E521166ED05F00C535A9 /* Firechat */,
+				1669E51A166ED05F00C535A9 /* Frameworks */,
+				1669E518166ED05F00C535A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1669E518166ED05F00C535A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1669E517166ED05F00C535A9 /* iMonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1669E51A166ED05F00C535A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED9A7E4116F7C6F100030E3E /* Firebase.framework */,
+				16DAC9E0167287E400A2B44D /* CFNetwork.framework */,
+				16DAC9DE167287DD00A2B44D /* Security.framework */,
+				16DAC9DC167287D400A2B44D /* libicucore.dylib */,
+				5F126E9819AFF9C100A66FDC /* libc++.dylib */,
+				5F126E9619AFF9BE00A66FDC /* SystemConfiguration.framework */,
+				1669E51B166ED05F00C535A9 /* UIKit.framework */,
+				1669E51D166ED05F00C535A9 /* Foundation.framework */,
+				1669E51F166ED05F00C535A9 /* CoreGraphics.framework */,
+				1669E542166ED05F00C535A9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1669E521166ED05F00C535A9 /* Firechat */ = {
+			isa = PBXGroup;
+			children = (
+				1669E52A166ED05F00C535A9 /* AppDelegate.h */,
+				1669E52B166ED05F00C535A9 /* AppDelegate.m */,
+				1669E533166ED05F00C535A9 /* iPhone.storyboard */,
+				1669E539166ED05F00C535A9 /* ViewController.h */,
+				1669E53A166ED05F00C535A9 /* ViewController.m */,
+				1669E522166ED05F00C535A9 /* Supporting Files */,
+				8B15F8891BB7A12D00C34093 /* LoginViewController.h */,
+				8B15F88A1BB7A12D00C34093 /* LoginViewController.m */,
+				8B15F88C1BB811C300C34093 /* TypeViewController.h */,
+				8B15F88D1BB811C300C34093 /* TypeViewController.m */,
+			);
+			path = Firechat;
+			sourceTree = "<group>";
+		};
+		1669E522166ED05F00C535A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1669E523166ED05F00C535A9 /* iMonitor-Info.plist */,
+				1669E524166ED05F00C535A9 /* InfoPlist.strings */,
+				1669E527166ED05F00C535A9 /* main.m */,
+				1669E529166ED05F00C535A9 /* iMonitor-Prefix.pch */,
+				1669E52D166ED05F00C535A9 /* Default.png */,
+				1669E52F166ED05F00C535A9 /* Default@2x.png */,
+				1669E531166ED05F00C535A9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1669E516166ED05F00C535A9 /* iMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1669E553166ED05F00C535A9 /* Build configuration list for PBXNativeTarget "iMonitor" */;
+			buildPhases = (
+				1669E513166ED05F00C535A9 /* Sources */,
+				1669E514166ED05F00C535A9 /* Frameworks */,
+				1669E515166ED05F00C535A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMonitor;
+			productName = Firechat;
+			productReference = 1669E517166ED05F00C535A9 /* iMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1669E50E166ED05F00C535A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0610;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Firebase;
+				TargetAttributes = {
+					1669E516166ED05F00C535A9 = {
+						DevelopmentTeam = 3FG57L2VUV;
+					};
+				};
+			};
+			buildConfigurationList = 1669E511166ED05F00C535A9 /* Build configuration list for PBXProject "iMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1669E50C166ED05F00C535A9;
+			productRefGroup = 1669E518166ED05F00C535A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1669E516166ED05F00C535A9 /* iMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1669E515166ED05F00C535A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1669E526166ED05F00C535A9 /* InfoPlist.strings in Resources */,
+				1669E52E166ED05F00C535A9 /* Default.png in Resources */,
+				1669E530166ED05F00C535A9 /* Default@2x.png in Resources */,
+				1669E532166ED05F00C535A9 /* Default-568h@2x.png in Resources */,
+				1669E535166ED05F00C535A9 /* iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1669E513166ED05F00C535A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1669E528166ED05F00C535A9 /* main.m in Sources */,
+				1669E52C166ED05F00C535A9 /* AppDelegate.m in Sources */,
+				1669E53B166ED05F00C535A9 /* ViewController.m in Sources */,
+				8B15F88E1BB811C300C34093 /* TypeViewController.m in Sources */,
+				8B15F88B1BB7A12D00C34093 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1669E524166ED05F00C535A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1669E525166ED05F00C535A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1669E533166ED05F00C535A9 /* iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1669E534166ED05F00C535A9 /* en */,
+			);
+			name = iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1669E551166ED05F00C535A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1669E552166ED05F00C535A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1669E554166ED05F00C535A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Firechat/iMonitor-Prefix.pch";
+				INFOPLIST_FILE = "Firechat/iMonitor-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = iMonitor;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1669E555166ED05F00C535A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Firechat/iMonitor-Prefix.pch";
+				INFOPLIST_FILE = "Firechat/iMonitor-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = iMonitor;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1669E511166ED05F00C535A9 /* Build configuration list for PBXProject "iMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1669E551166ED05F00C535A9 /* Debug */,
+				1669E552166ED05F00C535A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1669E553166ED05F00C535A9 /* Build configuration list for PBXNativeTarget "iMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1669E554166ED05F00C535A9 /* Debug */,
+				1669E555166ED05F00C535A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1669E50E166ED05F00C535A9 /* Project object */;
+}
