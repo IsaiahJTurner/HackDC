@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface PatientInfoViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *passwordField;
 
 @end
