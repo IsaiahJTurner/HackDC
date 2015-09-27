@@ -25,6 +25,7 @@
 		5F126E9919AFF9C100A66FDC /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F126E9819AFF9C100A66FDC /* libc++.dylib */; };
 		8B15F88B1BB7A12D00C34093 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15F88A1BB7A12D00C34093 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8B15F88E1BB811C300C34093 /* TypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15F88D1BB811C300C34093 /* TypeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8B15F8911BB81C1D00C34093 /* PatientInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15F8901BB81C1D00C34093 /* PatientInfoViewController.m */; settings = {ASSET_TAGS = (); }; };
 		ED9A7E4216F7C6F100030E3E /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9A7E4116F7C6F100030E3E /* Firebase.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,8 @@
 		8B15F88A1BB7A12D00C34093 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		8B15F88C1BB811C300C34093 /* TypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeViewController.h; sourceTree = "<group>"; };
 		8B15F88D1BB811C300C34093 /* TypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeViewController.m; sourceTree = "<group>"; };
+		8B15F88F1BB81C1D00C34093 /* PatientInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientInfoViewController.h; sourceTree = "<group>"; };
+		8B15F8901BB81C1D00C34093 /* PatientInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientInfoViewController.m; sourceTree = "<group>"; };
 		ED9A7E4116F7C6F100030E3E /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,8 +128,11 @@
 				8B15F88A1BB7A12D00C34093 /* LoginViewController.m */,
 				8B15F88C1BB811C300C34093 /* TypeViewController.h */,
 				8B15F88D1BB811C300C34093 /* TypeViewController.m */,
+				8B15F88F1BB81C1D00C34093 /* PatientInfoViewController.h */,
+				8B15F8901BB81C1D00C34093 /* PatientInfoViewController.m */,
 			);
-			path = Firechat;
+			name = Firechat;
+			path = iMonitor;
 			sourceTree = "<group>";
 		};
 		1669E522166ED05F00C535A9 /* Supporting Files */ = {
@@ -218,6 +224,7 @@
 				1669E528166ED05F00C535A9 /* main.m in Sources */,
 				1669E52C166ED05F00C535A9 /* AppDelegate.m in Sources */,
 				1669E53B166ED05F00C535A9 /* ViewController.m in Sources */,
+				8B15F8911BB81C1D00C34093 /* PatientInfoViewController.m in Sources */,
 				8B15F88E1BB811C300C34093 /* TypeViewController.m in Sources */,
 				8B15F88B1BB7A12D00C34093 /* LoginViewController.m in Sources */,
 			);
@@ -308,8 +315,8 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Firechat/iMonitor-Prefix.pch";
-				INFOPLIST_FILE = "Firechat/iMonitor-Info.plist";
+				GCC_PREFIX_HEADER = "iMonitor/iMonitor-Prefix.pch";
+				INFOPLIST_FILE = "iMonitor/iMonitor-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = iMonitor;
 				PROVISIONING_PROFILE = "";
@@ -329,8 +336,8 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Firechat/iMonitor-Prefix.pch";
-				INFOPLIST_FILE = "Firechat/iMonitor-Info.plist";
+				GCC_PREFIX_HEADER = "iMonitor/iMonitor-Prefix.pch";
+				INFOPLIST_FILE = "iMonitor/iMonitor-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = iMonitor;
 				PROVISIONING_PROFILE = "";
